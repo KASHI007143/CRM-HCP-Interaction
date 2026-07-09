@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Beautiful, separate custom scrollbar for panel containers */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.5); /* Soft slate track */
+  border-radius: 9999px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.35); /* Slate color with soft transparency */
+  border-radius: 9999px;
+  border: 1.5px solid transparent;
+  background-clip: padding-box;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.6); /* Clearer indigo-600 tint on hover */
+  border: 1.5px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Firefox style */
+.scrollbar-custom {
+  scrollbar-width: auto;
+  scrollbar-color: rgba(100, 116, 139, 0.35) rgba(241, 245, 249, 0.5);
+}

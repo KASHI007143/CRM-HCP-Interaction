@@ -1,0 +1,10 @@
+{
+  "name": "Copy of AI-First CRM HCP Module",
+  "description": "An AI-powered CRM interface for pharmaceutical and life-sciences representatives. Log and edit healthcare professional (HCP) interactions hands-free through a chat interface, driven by a server-side LangGraph state agent.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
